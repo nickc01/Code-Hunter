@@ -29,7 +29,7 @@ int main()
 			textToAnalyze[i] == 'E' || textToAnalyze[i] == 'I' || textToAnalyze[i] == 'O' ||
 			textToAnalyze[i] == 'U')
 		{
-			++vowels; //Changed this line to increment the vowels variable when a vowel is found. Original: --vowels;
+			++vowels; //Changed this line to increment the vowels variable when a vowel is found, rather than decrement. Original: --vowels;
 		}
 		else if ((textToAnalyze[i] >= 'a' && textToAnalyze[i] <= 'z') || (textToAnalyze[i] >= 'A' && textToAnalyze[i] <= 'Z'))
 		{
